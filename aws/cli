@@ -1,0 +1,3 @@
+aws ec2 run-instances --image-id ami-085fd1bd447be68e8 --count 1 --instance-type t2.micro --no-verify
+aws ec2 describe-instances --no-verify
+aws ec2 terminate-instances --instance-ids i-07531161b6852f899 --no-verify
